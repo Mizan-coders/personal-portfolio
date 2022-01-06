@@ -4,9 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
 }
-.half-width{
-    width: 50%;
-}
+
 .container{
     width: 95%;
     margin: 0 auto;
@@ -124,3 +122,9 @@ input, textarea{
     font-size: 15px;
     letter-spacing: .1px;
   }
+  textarea{
+      height: 120px;
+  }
+  .right-text-b {
+    margin:0px 50px 0px 0px;
+}
