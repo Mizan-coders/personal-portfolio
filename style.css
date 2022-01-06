@@ -4,19 +4,28 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
 }
+.half-width{
+    width: 50%;
+}
 .container{
     width: 95%;
 }
 .top-section{
-    display: flex;
     padding-top: 50px;
+}
+.flex{
+    display: flex;
 }
 .text-border{
     border-left:3px solid peru;
     //padding-left: 7px;
+    margin-top:50px
 }
 .text-color{
     color:peru;
+}
+.align-center{
+    text-align: center;
 }
 .title-style{
     font-size: 50px;
@@ -38,4 +47,34 @@ body{
 .para-style{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.mission22-box {
+    background-color: papayawhip;
+    margin: 0 25px;
+    padding: 3%;
+   // text-align: center;
+}
+.mission22-flex{
+    display: flex;
+}
+.mission22-box img {
+    width: 50%;
+}
+.mission22{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.left-image img{
+    width: 100%;
+}
+.text-with-image {
+    margin: 130px 20px 20px 0px;
+}
+.right-text {
+    margin: 150px 100px 0px 0px;
+    //position: relative;
+    //top: 150px;
+}
+.right-image img{
+    width: 100%;
 }
