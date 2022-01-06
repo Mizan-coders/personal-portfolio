@@ -9,20 +9,24 @@ body{
 }
 .container{
     width: 95%;
+    margin: 0 auto;
 }
 .top-section{
     padding-top: 50px;
+}
+.portfolio-image img{
+    marging-left:80px;
 }
 .flex{
     display: flex;
 }
 .text-border{
-    border-left:3px solid peru;
+    border-left:3px solid #d93bcc;
     //padding-left: 7px;
     margin-top:50px
 }
 .text-color{
-    color:peru;
+    color:#db8344;
 }
 .align-center{
     text-align: center;
@@ -34,11 +38,23 @@ body{
     margin: 15px;
 }
 .link-button {
-    text-decoration: none;
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)
+}
+
+.link-button{
+    margin: 0px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+.link-button:hover{
+    background-position: right center; /* change the direction of the change here */
     color: #fff;
-    padding: 10px;
-    background-color: hsl(11deg 86% 56%);
-    border-radius: 5px;
+    text-decoration: none;
 }
 .half-width{
     width: 50%;
@@ -78,3 +94,12 @@ body{
 .right-image img{
     width: 100%;
 }
+.mission22-box:nth-child(1) {
+    background-color: #5CB065;
+  }
+.mission22-box:nth-child(2) {
+    background-color: #D3455D;
+  }
+  .mission22-box:nth-child(3) {
+    background-color: #85C3C4;
+  }
